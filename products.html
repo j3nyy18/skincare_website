@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Skincare Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="shop-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="filter-group">
+        <h3>Category</h3>
+        <label><input type="checkbox"> Cleanser</label>
+        <label><input type="checkbox"> Moisturiser</label>
+        <label><input type="checkbox"> Sunscreen</label>
+        <label><input type="checkbox"> .. </label>
+        <label><input type="checkbox"> .. </label>
+      </div>
+
+      <div class="filter-group">
+        <h3>Price Range</h3>
+        <label>₹300 - ₹1500</label>
+      </div>
+
+      <div class="filter-group">
+        <h3>Rating</h3>
+        <label><input type="checkbox"> ⭐⭐⭐⭐ & above</label>
+        <label><input type="checkbox"> ⭐⭐⭐ & above</label>
+      </div>
+    </aside>
+
+    <!-- PRODUCTS -->
+    <section class="products-grid">
+      <div class="product-card">
+        <span class="badge">Sale</span>
+        <div class="product-image">
+            <img src="images/cleanser.png" alt="Cetaphil Gentle Cleanser">
+        </div>
+        <h4>Cetaphil Gentle Cleanser</h4>
+        <div class="stars">
+            <span class="stars-fill" style="width:100%"></span>
+        </div>
+        <div class="price"><span>₹459</span> ₹390</div>
+        <button class="btn-primary">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <span class="badge">New</span>
+        <div class="product-image">
+            <img src="images/lotion.png" alt="Cetaphil Moisturising Lotion">
+          </div>
+        <h4>Cetaphil Moisturising Lotion</h4>
+        <div class="stars">
+            <span class="stars-fill" style="width:80%"></span>
+        </div>
+        <div class="price">₹670 </div>
+        <button class="btn-primary">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <span class="badge">Limited</span>
+        <div class="product-image">
+            <img src="images/oilyskin_cleanser.png" alt="Cetaphil Oily Skin Cleanser">
+        </div>
+        <h4>Cetaphil Oily Skin Cleanser</h4>
+        <div class="stars">
+            <span class="stars-fill" style="width:80%"></span>
+        </div>
+        <div class="price">₹669 </div>
+        <button class="btn-primary">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <div class="product-image">
+            <img src="images/sunscreen.png" alt="Cetaphil Sunscreen SPF 50">
+        </div>
+        <h4>Cetaphil Sunscreen SPF 50</h4>
+        <div class="stars">
+            <span class="stars-fill" style="width:100%"></span>
+        </div>
+        <div class="price">₹699 </div>
+        <button class="btn-primary">Add to Cart</button>
+      </div>
+    </section>
+  </div>
+
+  <section class="product-detail">
+    <div>
+        <div class="gallery-main">
+            <img src="images/cleanser.png" alt="Cetaphil Gentle Cleanser">
+          </div>
+    </div>
+
+    <div class="detail-info">
+      <h2>Cetaphil Gentle Skin Cleanser</h2>
+      <div class="stars">
+        <span class="stars-fill" style="width:100%"></span>
+      </div>
+      <div class="detail-price">₹390 <span>15% OFF</span></div>
+
+      <div class="size-options">
+        <p>Size</p><br/>
+        <button>118ml</button>
+        <button>236ml</button>
+        <button>1000ml</button>
+      </div>
+
+      <div class="qty">
+        <button>-</button>
+        <span>1</span>
+        <button>+</button>
+      </div>
+
+      <button class="btn-secondary">Add to Cart</button>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
